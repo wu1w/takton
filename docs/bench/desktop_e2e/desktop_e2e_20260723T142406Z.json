@@ -1,0 +1,50 @@
+{
+  "ts": "20260723T142406Z",
+  "display": ":99",
+  "passed": 1,
+  "failed": 6,
+  "steps": [
+    {
+      "name": "pack_gate_coding_vs_desktop",
+      "ok": true,
+      "detail": "coding_has_click=False; after_pack=True",
+      "ms": 0.18405914306640625
+    },
+    {
+      "name": "desktop_open_app",
+      "ok": false,
+      "detail": "{'success': True, 'message': '已打开应用: xclock', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:24:05.531998+00:00'}",
+      "ms": 21.0874080657959
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": false,
+      "detail": "{'success': True, 'message': '截图成功', 'data': {'image': '', 'tool': 'scrot'}, 'error': None, 'timestamp': '2026-07-23T14:24:06.093127+00:00'}",
+      "ms": 60.58835983276367
+    },
+    {
+      "name": "desktop_click",
+      "ok": false,
+      "detail": "{'success': True, 'message': '点击成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:24:06.202416+00:00'}",
+      "ms": 109.22050476074219
+    },
+    {
+      "name": "desktop_type",
+      "ok": false,
+      "detail": "{'success': True, 'message': '输入成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:24:06.275329+00:00'}",
+      "ms": 72.90387153625488
+    },
+    {
+      "name": "desktop_scroll",
+      "ok": false,
+      "detail": "{'success': True, 'message': '滚动成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:24:06.484288+00:00'}",
+      "ms": 208.9540958404541
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": false,
+      "detail": "{'success': True, 'message': '截图成功', 'data': {'image': '', 'tool': 'scrot'}, 'error': None, 'timestamp': '2026-07-23T14:24:06.501587+00:00'}",
+      "ms": 17.364501953125
+    }
+  ]
+}

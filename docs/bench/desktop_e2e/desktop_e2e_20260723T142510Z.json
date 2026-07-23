@@ -1,0 +1,50 @@
+{
+  "ts": "20260723T142510Z",
+  "display": ":99",
+  "passed": 5,
+  "failed": 2,
+  "steps": [
+    {
+      "name": "pack_gate_coding_vs_desktop",
+      "ok": true,
+      "detail": "coding_has_click=False; after_pack=True",
+      "ms": 0.1819133758544922
+    },
+    {
+      "name": "desktop_open_app",
+      "ok": true,
+      "detail": "{'success': True, 'message': '已打开应用: xclock', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:25:09.421286+00:00'}",
+      "ms": 10.00356674194336
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": false,
+      "detail": "scrot 输出过小 (0 bytes)，检查 DISPLAY=:99",
+      "ms": 17.560243606567383
+    },
+    {
+      "name": "desktop_click",
+      "ok": true,
+      "detail": "{'success': True, 'message': '点击成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:25:10.047345+00:00'}",
+      "ms": 107.80143737792969
+    },
+    {
+      "name": "desktop_type",
+      "ok": true,
+      "detail": "{'success': True, 'message': '输入成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:25:10.120553+00:00'}",
+      "ms": 73.14062118530273
+    },
+    {
+      "name": "desktop_scroll",
+      "ok": true,
+      "detail": "{'success': True, 'message': '滚动成功', 'data': {}, 'error': None, 'timestamp': '2026-07-23T14:25:10.329232+00:00'}",
+      "ms": 208.62555503845215
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": false,
+      "detail": "scrot 输出过小 (0 bytes)，检查 DISPLAY=:99",
+      "ms": 16.679763793945312
+    }
+  ]
+}

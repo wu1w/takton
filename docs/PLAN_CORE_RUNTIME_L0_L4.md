@@ -267,7 +267,8 @@ backend/tests/test_loop_budget_retry.py
 | 2026-07-23 | 立项 | 计划成文；此前已完成 dynamic/分阈值/workspace 根 | ec8d635 及之前 | mimo 读 backend 路径 pass；dynamic tokens≪full |
 | 2026-07-23 | L0 | bench 双模型 runner + 10 题 + baseline 报告 | (本批) | mimo 10/10；kimi-for-coding 9/10 |
 | 2026-07-23 | L1 | IterationBudget + TurnRetryState + tool_result_contract 接入 loop | a861b56 | 单测绿 |
-| 2026-07-23 | L1 收尾 + L2 | 空工具名/LLM 分类/工具后空答；profile coding 默认 + skill 纪律 | (本批) | mimo+kimi 10/10 |
+| 2026-07-23 | L1 收尾 + L2 | 空工具名/LLM 分类/工具后空答；profile coding 默认 + skill 纪律 | 50f5bcb | mimo+kimi 10/10 |
+| 2026-07-23 | L3 | workspace 契约 + tool hooks + file checkpoint | (本批) | test_l3 全绿 |
 
 ---
 

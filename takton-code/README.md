@@ -202,7 +202,7 @@ Competitor audit: `docs/COMPETITOR_LOCAL_AUDIT.md`
 
 ```bash
 # AIGA llama.cpp + optional live bridge
-export TAKTON_CODE_BASE_URL=http://192.168.5.32:8088/v1
+export TAKTON_CODE_BASE_URL=http://127.0.0.1:8088/v1
 export TAKTON_CODE_MODEL=Qwen3.5-122B-A10B-APEX-I-Mini.gguf
 python smoke/smoke_full.py
 ```

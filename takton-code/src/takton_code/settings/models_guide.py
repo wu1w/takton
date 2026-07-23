@@ -46,7 +46,7 @@ PRESETS: dict[str, ModelPreset] = {
     "aiga": ModelPreset(
         id="aiga",
         name="AIGA llama.cpp (局域网)",
-        base_url="http://192.168.5.32:8088/v1",
+        base_url="http://127.0.0.1:8088/v1",
         model="Qwen3.5-122B-A10B-APEX-I-Mini.gguf",
         context_window=262144,
         max_tokens=4096,

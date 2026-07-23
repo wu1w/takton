@@ -1,0 +1,56 @@
+{
+  "ts": "20260723T144030Z",
+  "display": ":0",
+  "passed": 8,
+  "failed": 0,
+  "steps": [
+    {
+      "name": "pack_gate_coding_vs_desktop",
+      "ok": true,
+      "detail": "coding_has_click=False; after_pack=True",
+      "ms": 0.1800060272216797
+    },
+    {
+      "name": "desktop_open_app",
+      "ok": true,
+      "detail": "{\"success\": true, \"message\": \"已打开应用: xclock\", \"data\": {}, \"error\": null, \"timestamp\": \"2026-07-23T14:40:20.680580+00:00\"}",
+      "ms": 8.284330368041992
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": true,
+      "detail": "截图成功; saved /opt/hermes-workspace/takton/docs/bench/desktop_e2e_real/screenshot.jpg (5427 bytes)",
+      "ms": 18.700599670410156
+    },
+    {
+      "name": "desktop_click",
+      "ok": true,
+      "detail": "{\"success\": true, \"message\": \"点击成功\", \"data\": {}, \"error\": null, \"timestamp\": \"2026-07-23T14:40:21.313195+00:00\"}",
+      "ms": 113.10505867004395
+    },
+    {
+      "name": "desktop_type",
+      "ok": true,
+      "detail": "{\"success\": true, \"message\": \"输入成功\", \"data\": {}, \"error\": null, \"timestamp\": \"2026-07-23T14:40:21.389757+00:00\"}",
+      "ms": 76.52401924133301
+    },
+    {
+      "name": "desktop_scroll",
+      "ok": true,
+      "detail": "{\"success\": true, \"message\": \"滚动成功\", \"data\": {}, \"error\": null, \"timestamp\": \"2026-07-23T14:40:21.599225+00:00\"}",
+      "ms": 209.4409465789795
+    },
+    {
+      "name": "desktop_screenshot",
+      "ok": true,
+      "detail": "截图成功; saved /opt/hermes-workspace/takton/docs/bench/desktop_e2e_real/screenshot.jpg (5427 bytes)",
+      "ms": 12.561798095703125
+    },
+    {
+      "name": "agent_desktop_screenshot",
+      "ok": true,
+      "detail": "tools=['desktop_screenshot'] final='截图成功。' err=''",
+      "ms": 8472.414255142212
+    }
+  ]
+}
